@@ -26,7 +26,7 @@ SECRET_KEY = os.environ.get('hyw*c84-p2!%lo^3effwnd9g#au$9yg-p-aq7wj_)4@az5v5q4'
 # SECURITY WARNING: don't run with debug turned on in production!
 #DEBUG = True
 DEBUG = bool( os.environ.get('DJANGO_DEBUG', True) )
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['powerful-bastion-14429.herokuapp.com','127.0.0.1']
 
 
 # Application definition
